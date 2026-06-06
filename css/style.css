@@ -1,0 +1,30 @@
+:root{
+  --primary:#0f172a;
+  --secondary:#16a34a;
+  --accent:#f59e0b;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  line-height:1.7;
+  margin:0;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+
+.hero{
+  padding:80px 20px;
+  text-align:center;
+}
+
+.btn{
+  background:#16a34a;
+  color:#fff;
+  padding:12px 24px;
+  border-radius:8px;
+  text-decoration:none;
+}
