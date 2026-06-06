@@ -1,119 +1,301 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maxwin303 — Platform Edukasi Teknologi Gratis untuk Anak Indonesia</title>
-  <meta name="description" content="Maxwin303 menyediakan informasi edukasi teknologi gratis untuk anak-anak Indonesia. Pelajari coding, sains, dan digital literacy dengan cara interaktif dan menyenangkan.">
-  <style>:root{
-  --primary:#0f172a;
-  --secondary:#16a34a;
-  --accent:#f59e0b;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MAXWIN303 | Edukasi Teknologi Gratis untuk Anak Bangsa Indonesia</title>
+
+<meta name="description" content="MAXWIN303 adalah portal edukasi teknologi gratis yang membantu anak-anak Indonesia mempelajari coding, kecerdasan buatan, keamanan digital, robotika, dan literasi teknologi secara mudah dan menyenangkan.">
+<meta name="google-site-verification" content="Wn48yrCUI-m_q0PRkbvX8zASyAMpgcoYfnO5S7TEwOQ" />
+<meta property="og:title" content="MAXWIN303 | Edukasi Teknologi Gratis">
+<meta property="og:description" content="Belajar teknologi, coding, AI, dan keamanan digital untuk generasi muda Indonesia.">
+<meta property="og:type" content="website">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-  font-family:Arial,sans-serif;
-  line-height:1.7;
-  margin:0;
+font-family:Arial,Helvetica,sans-serif;
+line-height:1.8;
+background:#f8fafc;
+color:#1e293b;
+}
+
+header{
+background:#0f172a;
+color:#fff;
+padding:20px;
+position:sticky;
+top:0;
+z-index:999;
 }
 
 .container{
-  max-width:1200px;
-  margin:auto;
-  padding:20px;
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
 }
 
 .hero{
-  padding:80px 20px;
-  text-align:center;
+padding:100px 20px;
+text-align:center;
+background:linear-gradient(135deg,#0f172a,#1e40af);
+color:#fff;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:800px;
+margin:auto;
+font-size:20px;
 }
 
 .btn{
-  background:#16a34a;
-  color:#fff;
-  padding:12px 24px;
-  border-radius:8px;
-  text-decoration:none;
+display:inline-block;
+margin-top:30px;
+padding:14px 30px;
+background:#22c55e;
+color:#fff;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+section{
+padding:80px 20px;
+}
+
+h2{
+margin-bottom:25px;
+font-size:34px;
+color:#0f172a;
+}
+
+.card-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.faq details{
+background:white;
+padding:15px;
+margin-bottom:15px;
+border-radius:10px;
+}
+
+footer{
+background:#0f172a;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:34px;
+}
 }
 </style>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
 
-  const faq = document.querySelectorAll('details');
-
-  faq.forEach(item => {
-    item.addEventListener('toggle', () => {
-      console.log('FAQ dibuka');
-    });
-  });
-
-});
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"Organization",
+"name":"MAXWIN303",
+"url":"https://maxwin303-official.github.io",
+"description":"Portal edukasi teknologi gratis untuk anak bangsa Indonesia"
+}
 </script>
+
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Logo Maxwin303" class="logo">
-    <nav>
-      <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="game-unggulan.html">Game & Tools</a></li>
-        <li><a href="parental-control.html">Tips & Kontrol Orang Tua</a></li>
-        <li><a href="artikel-edukasi.html">Artikel Edukasi</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero">
-      <h1>Maxwin303 — Edukasi Teknologi Gratis untuk Anak Indonesia</h1>
-      <p>Temukan cara belajar teknologi, coding, sains, dan digital literacy secara menyenangkan, aman, dan interaktif untuk anak usia 6–15 tahun.</p>
-      <a href="game-unggulan.html" class="cta">Mulai Belajar Sekarang</a>
-    </section>
+<header>
+<div class="container">
+<nav>
+<div class="logo">MAXWIN303</div>
 
-    <section class="features">
-      <h2>Mengapa Maxwin303?</h2>
-      <ul>
-        <li>Konten edukasi gratis & aman</li>
-        <li>Interaktif dan menyenangkan</li>
-        <li>Tools & games edukatif berbasis teknologi</li>
-        <li>Parental guidance & tips parenting digital</li>
-      </ul>
-    </section>
+<ul>
+<li><a href="#tentang">Tentang</a></li>
+<li><a href="#program">Program</a></li>
+<li><a href="#artikel">Artikel</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
 
-    <section class="testimonials">
-      <h2>Apa Kata Pengguna?</h2>
-      <article>
-        <p>"Anak saya senang belajar coding lewat Maxwin303. Cara penyampaian materi jelas dan menarik!" — Ibu Sari</p>
-      </article>
-      <article>
-        <p>"Platform edukasi yang lengkap dan gratis. Sangat direkomendasikan untuk anak-anak Indonesia!" — Bapak Andi</p>
-      </article>
-    </section>
+</nav>
+</div>
+</header>
 
-    <section class="faq">
-      <h2>FAQ</h2>
-      <details>
-        <summary>Apakah platform ini gratis?</summary>
-        <p>Ya, seluruh konten Maxwin303 bisa diakses gratis oleh anak-anak Indonesia.</p>
-      </details>
-      <details>
-        <summary>Apakah ada iklan?</summary>
-        <p>Tidak, semua konten bebas iklan untuk keamanan anak.</p>
-      </details>
-      <details>
-        <summary>Usia berapa yang disarankan?</summary>
-        <p>Untuk anak usia 6–15 tahun, dengan pengawasan orang tua disarankan bagi anak muda usia 6–8 tahun.</p>
-      </details>
-    </section>
+<section class="hero">
 
-    <section class="cta-bottom">
-      <a href="game-unggulan.html" class="cta">Mulai Eksplorasi Edukasi Teknologi</a>
-    </section>
-  </main>
+<h1>MAXWIN303 Edukasi Teknologi Gratis untuk Anak Bangsa</h1>
 
-  <footer>
-    <p>&copy; 2026 Maxwin303. Semua hak cipta dilindungi.</p>
-  </footer>
+<p>
+MAXWIN303 hadir sebagai portal pembelajaran teknologi yang bertujuan membantu generasi muda Indonesia memahami dunia digital, coding, kecerdasan buatan, keamanan siber, robotika, dan berbagai keterampilan masa depan yang semakin dibutuhkan.
+</p>
+
+<a href="#program" class="btn">Mulai Belajar</a>
+
+</section>
+
+<section id="tentang">
+
+<div class="container">
+
+<h2>Tentang MAXWIN303</h2>
+
+<p>
+Perkembangan teknologi telah mengubah cara manusia belajar, bekerja, dan berkomunikasi. Oleh karena itu, generasi muda Indonesia perlu memiliki pemahaman yang baik mengenai teknologi sejak dini. MAXWIN303 dibangun sebagai media edukasi yang menyediakan informasi gratis dan mudah dipahami mengenai berbagai bidang teknologi modern.
+</p>
+
+<p>
+Melalui artikel, panduan, dan materi pembelajaran yang disusun secara sistematis, MAXWIN303 membantu pelajar, orang tua, dan masyarakat umum memperoleh wawasan digital yang lebih luas tanpa harus mengeluarkan biaya mahal.
+</p>
+
+</div>
+
+</section>
+
+<section id="program">
+
+<div class="container">
+
+<h2>Program Pembelajaran</h2>
+
+<div class="card-grid">
+
+<div class="card">
+<h3>Belajar Coding</h3>
+<p>Mengenal dasar pemrograman, logika komputer, HTML, CSS, JavaScript, dan konsep pengembangan aplikasi modern.</p>
+</div>
+
+<div class="card">
+<h3>Kecerdasan Buatan</h3>
+<p>Memahami AI, machine learning, penggunaan AI yang bertanggung jawab, dan peluang karir masa depan.</p>
+</div>
+
+<div class="card">
+<h3>Keamanan Digital</h3>
+<p>Belajar menjaga privasi, mengenali penipuan online, dan membangun kebiasaan internet yang aman.</p>
+</div>
+
+<div class="card">
+<h3>Robotika Dasar</h3>
+<p>Pengenalan robotika, sensor, mikrokontroler, dan dunia otomasi modern.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="artikel">
+
+<div class="container">
+
+<h2>Materi Edukasi Populer</h2>
+
+<h3>Apa Itu Coding?</h3>
+
+<p>
+Coding adalah proses menulis instruksi yang dapat dipahami oleh komputer. Dengan memahami coding, seseorang dapat membuat website, aplikasi mobile, game edukasi, hingga sistem kecerdasan buatan.
+</p>
+
+<h3>Mengenal Artificial Intelligence</h3>
+
+<p>
+Artificial Intelligence atau AI adalah teknologi yang memungkinkan komputer melakukan tugas yang biasanya membutuhkan kecerdasan manusia. AI kini digunakan dalam pendidikan, kesehatan, transportasi, dan berbagai sektor lainnya.
+</p>
+
+<h3>Internet Aman untuk Anak</h3>
+
+<p>
+Penting bagi anak-anak untuk memahami etika digital, menjaga data pribadi, serta mengenali konten yang aman dan bermanfaat ketika menggunakan internet.
+</p>
+
+</div>
+
+</section>
+
+<section class="faq" id="faq">
+
+<div class="container">
+
+<h2>Pertanyaan yang Sering Diajukan</h2>
+
+<details>
+<summary>Apakah MAXWIN303 gratis?</summary>
+<p>Ya. Materi edukasi yang tersedia dapat diakses secara gratis.</p>
+</details>
+
+<details>
+<summary>Siapa yang dapat belajar di MAXWIN303?</summary>
+<p>Pelajar, mahasiswa, orang tua, dan masyarakat umum yang ingin meningkatkan literasi teknologi.</p>
+</details>
+
+<details>
+<summary>Apa fokus utama MAXWIN303?</summary>
+<p>Edukasi teknologi, coding, AI, keamanan digital, dan pengembangan keterampilan masa depan.</p>
+</details>
+
+</div>
+
+</section>
+
+<footer>
+
+<p><strong>MAXWIN303</strong></p>
+
+<p>
+Portal Edukasi Teknologi Gratis untuk Anak Bangsa Indonesia
+</p>
+
+<p>
+© 2026 MAXWIN303. Semua Hak Dilindungi.
+</p>
+
+</footer>
 
 </body>
 </html>
